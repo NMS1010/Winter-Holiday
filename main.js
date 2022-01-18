@@ -93,7 +93,6 @@ function handleEvent() {
         let startTime = performance.now();
         function updateNum(currTime) {
             let elapsedTime = currTime - startTime;
-            console.log(startTime, currTime, elapsedTime)
             if(elapsedTime > duration) {
                 callback(max);
             } else {
